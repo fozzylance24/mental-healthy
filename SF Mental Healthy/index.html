@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+     <link rel="stylesheet" href="slick/slick.css">
+     <link rel="stylesheet" href="style.css">
+    <title>SF Mental Health</title>
+</head>
+<body>
+    <header>
+        <!-- logo here  ------------->
+       <a href="index.html"> <img src="resources/logo.png" alt=""></a>
+       <!-- menu here --------------->
+       <div class="menu">
+           <ul>
+               <li><a href="">About Us</a></li>
+               <li><a href="">Services</a></li>
+               <li><a href="">Resources</a></li>
+               <li><a href="">Get Involved</a></li>
+           </ul>
+       </div>
+     <!-- mobile menu  ----------------------> 
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Resources</a>
+                <a href="#">Get Involved</a>
+            </div>
+        </div>
+        <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+    </header>
+
+    <!-- hero section ---------------------------------------------->
+    <div class="bg"></div>
+    <section class="hero">
+       
+        <div class="header-text">
+            <h1>
+                We care for 
+                your mental 
+                well being
+            </h1>
+            <p>
+                We ensure you have the best knowledge,
+                help and resources for good mental health
+            </p>
+            <button>Discover More</button>
+        </div>
+        <img src="resources/pexels-anna-tarazevich-6173716.png" alt="">
+    </section>
+ <!-- about section -------------------------------------------------->
+ <div class="grey"></div>
+ <section class="about">
+   <div class="container-fluid">
+       <div class="row">
+           <div class="col-md-6">
+             <img src="resources/Group 2.png" alt="">
+           </div>
+           <div class="col-md-6">
+               <div class="text">
+                   <h2>About Mental Health SF</h2>
+                   <p>We fight stigma and discrimination in mental health 
+                    across diverse communities and changed policy, 
+                    perception, and people. As mental health continues
+                    to change, we aim to be at the forefront of the 
+                    evolution.</p>
+                    <button>Read More</button>
+               </div>
+           </div>
+       </div>
+   </div>
+ </section>
+<!-- tab section ---------------------------------------------------------->
+<section class="tab">
+    <h2>Education With MHASF</h2>
+   <div class="flexi">
+    <!-- tab controllers ------------>
+            <div class="controlls">
+                <p id="btn1" onclick="openTrophy();"><i class="fas fa-trophy"></i> Training Institute <span>></span></p>
+                <p id="btn2"  onclick="openSmile();"><i class="fas fa-smile"></i> PROPEL <span class="sima">></span></p>
+                <p id="btn3"  onclick="openDollar();"><i class="fas fa-dollar-sign"></i> TAMHS Project <span class="dora">></span></p>
+            </div>
+            <div class="line"></div>
+            <!-- tab content ------------------>
+            <div class="tab-content">
+                    <div class="content" id="trophy">
+                        <p> content 1
+                            MHASF's Training Institute provides evidence-based trainings 
+                            designed to enhance skills and knowledge for professional 
+                            development within a cooperative learning environment. 
+                            We deliver engaging, interactive trainings and workshops 
+                            discussing an array of mental health topics for people of 
+                            any profession and level of familiarity.
+                        </p>
+                        <button>View Programs</button>
+                    </div>
+                    <div class="content"  id="smile">
+                        <p>   content 2
+                            Training Institute provides evidence-based trainings 
+                            designed to enhance skills and knowledge for professional 
+                            development within a cooperative learning environment. 
+                            We deliver engaging, interactive trainings and workshops 
+                            discussing an array of mental health topics for people of 
+                            any profession and level of familiarity.
+                        </p>
+                        <button>View Programs</button>
+                    </div>
+                    <div class="content"  id="dollar">
+                        <p>  content 3
+                            MHASF's Training Institute provides evidence-based trainings 
+                            designed to enhance skills and knowledge for professional 
+                            development within a cooperative learning environment. 
+                            We deliver engaging, interactive trainings and workshops 
+                            discussing an array of mental health topics for people of 
+                            any profession and level of familiarity.
+                        </p>
+                        <button>View Programs</button>
+                    </div>
+            </div>
+    </div>
+    <img src="resources/Group 3.png" alt="" class="brain-head">
+</section>
+
+
+ <!-- warm line section -------------------------------------------------->
+ <section class="warm-line">
+   <div class="container-fluid">
+       <div class="row">
+           <div class="col-md-6">
+               <div class="text">
+                   <h2>Our Warm Line</h2>
+                   <p>We have a set of resources that help you in any
+                    matter regarding mental health. If you need to 
+                    speak to someone we also have people on the 
+                    line ready to be of help in your time of need</p>
+                    <button>View Resources & Contacts</button>
+               </div>
+           </div>
+           <div class="col-md-6">
+            <img src="resources/Group 4.png" alt="">
+          </div>
+       </div>
+   </div>
+ </section>
+
+ <!-- covid 19 support section ----------------------------------------->
+ <section class="support">
+    <div class="container-fluid">
+        <div class="blue-bg">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="resources/pexels-anna-shvets-4167544.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2>WE ARE AVAILABLE 24/7 
+                        FOR COVID-19 SUPPORT
+                    </h2>
+                    <p>
+                       <span> MHASF is here for you. </span>
+                        Our combined efforts of self-quarantining will save 
+                        lives. While physical social distancing is recommended. 
+   <span class="hide">  it does not mean we need to distance ourselves from
+                        one another emotionally and mentally. During this
+                        difficult period, we want to help and support by doing
+                        what we do best: peer-to-peer support, mental health
+                        information/referrals, and holistic wellness strategies.
+                       </span>
+                    </p>
+                    <button>Covid-19 Resources & Contacts</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+<!-- gallery  ---------------------------------------------->
+<section class="gallery">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="flexed">
+                    <img src="resources/pexels-gabby-k-5384618.png" alt="">
+                    <img src="resources/pexels-karolina-grabowska-4386153.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="hug">
+                    <img src="resources/pexels-anna-shvets-4557876.png" alt="">
+                    <div class="content">
+                        <h3>Fundraising </h3>
+                        <p>Corporate Donations, Peer to Peer Donations
+                            & GoFundMe Campaigns constitute
+                           the largest fraction of our fundraising. 
+                           Just to show our gratitude, here are the 
+                           largest donors from each of the groups </p>
+                           <button>View Donor Shoutouts</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <img src="resources/pexels-rfstudio-3059892.png" alt="" class="last">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- team section ------------------------------------------->
+<div class="mr">
+    <section class="join-team">
+        <div class="team">
+            <h3>Join Our Team</h3>
+            <p>Become a member of MHASF and help
+                lead the frontier to advocate for better
+                innovation in mental health care</p>
+            <button>Register To Advocate</button>
+        </div>
+        <div class="speak">
+            <h3>Speak Up</h3>
+            <p>Tell your story, serve as someone's
+                beacon of hope in their time of need</p>
+            <button>Register To Be A Speaker</button>
+        </div>
+    </section>
+</div>
+
+<!-- Advocate and volunteer -------------------------------->
+<section class="advocate">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-4">
+            <div class="bg-blue">
+               <div class="bordered">
+                <h3>Advocate</h3>
+                <p>
+                    Help spread the word about the
+                    need for better mental health 
+                    care and attention.
+                </p>
+                <button>Register To Advocate</button>
+               </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+              <img src="resources/pexels-helena-lopes-697243.png" alt="">
+          </div>
+          <div class="col-md-4">
+            <div class="bg-sky-blue">
+               <div class="bordered">
+                <h3>Volunteer</h3>
+                <p>
+                    Volunteer to help MHASF in any 
+                    event and stuff to do with some
+                    volunteering 
+                </p>
+                <button>Register To Volunteer</button>
+               </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer>
+    <h2>Sign Up For Our Newsletter</h2>
+    <img src="resources/envelope-512.png" alt="" class="mail">
+    <img src="resources/2ced1ce26b780c11fe6d60261cf98b22.png" alt="" class="brain">
+    <img src="resources/john-shared-a-drawing-with-youe79a84e589afe69cac.png" alt="" class="man">
+    <form action="">
+        <input type="text" placeholder="your email here">
+        <button>Sign Up</button>
+    </form>
+  <div class="flex-footer">
+        <p>
+            <span>Support</span>
+            24/7 Warm Line: 
+            855-845-7415
+        </p>
+        <div class="quick-links">
+                <h4>  Quick Links</h4>
+                <ul>
+                
+                    <li> about us</li>
+                    <li> services</li>
+                    <li> careers</li>
+                </ul>
+        </div>
+        <p>
+        <span>Contact Info</span>
+        870 Market Street, Suite 928
+        San Francisco, CA 94102
+        415-421-2926
+        info@mentalhealthsf.org   
+        </p>
+  </div>
+</footer>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>    
+</body>
+</html>
